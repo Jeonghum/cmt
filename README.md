@@ -9,15 +9,15 @@ This project is a copy of CMake Tutorial(http://www.cmake.org/cmake/help/cmake_t
 
 ### Branches
 
-- 0 .... Start
-- 1 .... Step 1. A Basic Starting Point
-- 2 .... Step 2. Adding a Library
-- 2.5 .... Step 2.5. Installing
-- 3 .... Step 3. Installing and Testing
-- 4 .... Step 4. Adding System Introspection
-- 5 .... Step 5. Adding a Generated File and Generator
-- 6 .... Step 6. Building an Installer
-- 7 .... Step 7. Adding Support for a Dashboard
+- 0 ............ Start
+- 1 ............ Step 1. A Basic Starting Point
+- 2 ............ Step 2. Adding a Library
+- 2.5 ......... Step 2.5. Installing
+- 3 ............ Step 3. Installing and Testing
+- 4 ............ Step 4. Adding System Introspection
+- 5 ............ Step 5. Adding a Generated File and Generator
+- 6 ............ Step 6. Building an Installer
+- 7 ............ Step 7. Adding Support for a Dashboard
 - master ... up-to-date
 
 ## References
