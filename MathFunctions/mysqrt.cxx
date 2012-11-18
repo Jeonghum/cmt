@@ -1,9 +1,9 @@
 
 #include "mysqrt.h"
+#include <cmath>
 
 double mysqrt(double arg)
 {
-
-	return 0;
+	return std::sqrt(arg);
 }
 
