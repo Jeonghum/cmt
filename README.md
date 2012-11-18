@@ -2,13 +2,17 @@
 This project is a copy of CMake Tutorial(http://www.cmake.org/cmake/help/cmake_tutorial.html) on github.
 
 ### Purpose of this work
+This project is just a result of studying of CMake Tutorial.
+You & I can get tested sample code simply by checking out each branches of this project.
 
 ## Guide
 ### Getting the source How-To:
-
+```
+$ git clone git://github.com/Journeyer/cmt.git
+$ git fetch -u git://github.com/Journeyer/cmt.git +refs/heads/*:refs/heads/*
+```
 
 ### Branches
-
 - 0 ............ Start
 - 1 ............ Step 1. A Basic Starting Point
 - 2 ............ Step 2. Adding a Library
