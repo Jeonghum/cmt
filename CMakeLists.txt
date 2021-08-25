@@ -21,7 +21,6 @@ configure_file (TutorialConfig.h.in TutorialConfig.h)
 if (USE_MYMATH)
   add_subdirectory (MathFunctions)
   list(APPEND EXTRA_LIBS MathFunctions)
-  list(APPEND EXTRA_INCLUDES "${PROJECT_SOURCE_DIR}/MathFunctions")
 endif ()
 
 # add the executable
@@ -31,6 +30,5 @@ target_link_libraries (Tutorial PUBLIC ${EXTRA_LIBS})
 
 target_include_directories(Tutorial PUBLIC
   "${PROJECT_BINARY_DIR}"
-  "${EXTRA_INCLUDES}"
   )
 
