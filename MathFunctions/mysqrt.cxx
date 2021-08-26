@@ -1,18 +1,29 @@
-
+#include <iostream>
+#include "Table.h"
 #include "mysqrt.h"
-#include <cmath>
 
-double mysqrt(double arg)
+double mysqrt(double x)
 {
-  double result;
+  if (x <= 0) {
+    return 0;
+  }
 
-#if defined (HAVE_LOG) && defined (HAVE_EXP)
-  // if we have both log and exp then use them
-  result = std::exp(std::log(arg)*0.5);
-#else
-  // otherwise use an iterative approach
-  result = std::sqrt(arg);
-#endif
+  // use the table to help find an initial value
+  double result = x;
+  if (x >= 1 && x < 10) {
+    std::cout << "Use the table to help find an initial value " << std::endl;
+    result = sqrtTable[static_cast<int>(x)];
+  }
+
+  // do ten iterations
+  for (int i = 0; i < 10; ++i) {
+    if (result <= 0) {
+      result = 0.1;
+    }
+    double delta = x - (result * result);
+    result = result + 0.5 * delta / result;
+    std::cout << "Computing sqrt of " << x << " to be " << result << std::endl;
+  }
 
   return result;
 }
