@@ -1,15 +1,10 @@
 #ifndef _MYSQRT_H
 #define _MYSQRT_H
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-	double mysqrt(double arg);
-
-#ifdef __cplusplus
+namespace mathfunctions {
+  namespace detail {
+    double mysqrt(double x);
+  }
 }
-#endif
-
 
 #endif
