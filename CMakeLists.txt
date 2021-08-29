@@ -6,10 +6,6 @@ project (Tutorial VERSION 1.0)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# The version number.
-set (Tutorial_VERSION_MAJOR 1)
-set (Tutorial_VERSION_MINOR 0)
-
 # should we use our own math functions?
 option (USE_MYMATH
   "Use tutorial provided math implementation" ON)
