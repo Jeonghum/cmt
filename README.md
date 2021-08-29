@@ -1,5 +1,5 @@
 ## About
-This project is a copy of CMake Tutorial(https://cmake.org/cmake/help/latest/guide/tutorial/index.html).
+This project is a study note of CMake Tutorial (https://github.com/Jeonghum/cmt/wiki).
 
 ### Purpose of this work
 This project is just a result of studying of CMake Tutorial.
