@@ -1,5 +1,5 @@
 ## About
-This project is a study note of CMake Tutorial (https://github.com/Jeonghum/cmt/wiki).
+This project is a study note of CMake Tutorial.
 
 ### Purpose of this work
 This project is just a result of studying of CMake Tutorial.
@@ -27,8 +27,4 @@ $ git fetch -u git://github.com/Jeonghum/cmt.git +refs/heads/*:refs/heads/*
 
 ## References
 CMake Tutorial - https://cmake.org/cmake/help/latest/guide/tutorial/index.html
-
-
-## License
-Creative Commons Attribution-NoDerivs 3.0 Unported License - http://creativecommons.org/licenses/by-nd/3.0/
 
