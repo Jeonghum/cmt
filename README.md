@@ -15,5 +15,4 @@ CMake Tutorial - http://www.cmake.org/cmake/help/cmake_tutorial.html
 
 
 ## License
-Creative Commons Attribution-NoDerivs 3.0 Unported License - http://creativecommons.org/licenses/by-nd/3.0/
-
+---
