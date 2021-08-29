@@ -14,16 +14,16 @@ $ git fetch -u git://github.com/Jeonghum/cmt.git +refs/heads/*:refs/heads/*
 
 ### Branches
 
-n1 A Basic Starting Point
-n2 Adding a Library
-n3 Adding Usage Requirements for a Library
-n4 Installing and Testing
-n5 Adding System Introspection
-n6 Adding a Custom Command and Generated File
-n7 Packaging an Installer
-n8 Adding Support for a Testing Dashboard
-n9 Selecting Static or Shared Libraries
-master ... master is now outdated
+- n1 A Basic Starting Point
+- n2 Adding a Library
+- n3 Adding Usage Requirements for a Library
+- n4 Installing and Testing
+- n5 Adding System Introspection
+- n6 Adding a Custom Command and Generated File
+- n7 Packaging an Installer
+- n8 Adding Support for a Testing Dashboard
+- n9 Selecting Static or Shared Libraries
+- master ... master is now outdated
 
 ## References
 CMake Tutorial - https://cmake.org/cmake/help/latest/guide/tutorial/index.html
